@@ -1,4 +1,4 @@
-import styles from 'components/TransitionHistory.module.css';
+import styles from './TransitionHistory.module.css'
 
 export const TransactionHistory = ({ items }) => {
     return <table className={styles['transaction-history']}>
